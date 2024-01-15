@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Culture</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Coffee Culture</a>
+        <ul class="nav-menu">
+          <li>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li>
+            <a href="#products"><i class="fas fa-coffee"></i> Products</a>
+          </li>
+          
+          <li>
+            <a href="#reviews"><i class="fas fa-star"></i> Reviews</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+          <li>
+            <a href="#blogs"><i class="fas fa-rss"></i> Blogs</a>
+          </li>
+          <li>
+            <a href="login.html"><i class="fa-star"></i> Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="cart"></div>
+      <i class="fas fa-shopping-cart"></i>
+      <p id="cart-count">0</p>
+      Cart
+    </a>
+  </div>
+    </nav>
+    <div class="container">
+      <div  id="root"></div>
+        <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+        <div id="CartItem">Your cart is empty</div>
+        <div class="foot">
+          <h3>Total</h3>
+          <h2 id="total">$ 0.00</h2>
+        </div>
+        </div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Welcome to Coffee Culture</h1>
+      <p>We take pride in serving the best coffee in town.</p>
+      <p>
+        Our coffee beans are carefully selected from the best farms around the
+        world,
+      </p>
+      <p>
+        and roasted to perfection to bring out their unique flavors and
+        aromas.
+      </p>
+      <p>
+        We also offer a variety of teas and baked goods to complement our
+        coffee.
+      </p>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2 class="title-text">About Us</h2>
+    <p>Welcome to our Coffee Culture,</p>
+    <p>
+      we strive to provide you with the best coffee experience in town. Our
+      passion for coffee is reflected in every cup we serve.
+    </p>
+    <p>
+      At our coffee shop, we source the finest coffee beans from around the
+      world. Our skilled baristas carefully roast and brew each cup to
+      perfection, ensuring a rich and flavorful coffee experience every time.
+    </p>
+    <p>
+      Whether you're a coffee connoisseur or just looking for a place to relax
+      and enjoy a delicious cup of joe, our coffee shop is the perfect
+      destination. Our comfortable ambiance, friendly staff, and top-notch
+      coffee will make you feel right at home.
+    </p>
+    <p>
+      Join us at our coffee shop and discover a world of coffee flavors that
+      will tantalize your taste buds. We look forward to serving you!
+    </p>
+  </section>
+
+
+  <section class="products" id="products">
+    <h2 class="title-text">Our Products</h2>
+    <div class="product-group">
+      <div class="product-row">
+        <div class="product-col">
+          <img src="Esspresso.jpg" alt="Product 1" />
+          <div class="layer">
+            <h3>Espresso</h3>
+            <div class="price">Rs.250/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Americano.jpg" alt="Product 2" />
+          <div class="layer">
+            <h3>Americano</h3>
+            <div class="price">Rs.300/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Cappuccino.jpg" alt="Product 3" />
+          <div class="layer">
+            <h3>Cappuccino</h3>
+            <div class="price">Rs.350/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Latte.jpg" alt="Product 4" />
+          <div class="layer">
+            <h3>Latte</h3>
+            <div class="price">Rs.300/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Matcha Latte.jpg" alt="Product 5" />
+          <div class="layer">
+            <h3>Matcha Latte</h3>
+            <div class="price">Rs.400/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Iced Coffee.jpg" alt="Product 6" />
+          <div class="layer">
+            <h3>Iced Coffee</h3>
+            <div class="price">Rs.200/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Cold Brew.jpg" alt="Product 7" />
+          <div class="layer">
+            <h3>Cold Brew</h3>
+            <div class="price">Rs.300/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="French Press.jpg" alt="Product 8" />
+          <div class="layer">
+            <h3>French Press</h3>
+            <div class="price">Rs.350/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="product-col">
+          <img src="Espresso Macchiato.jpg" alt="Product 9" />
+          <div class="layer">
+            <h3>Espresso Macchiato</h3>
+            <div class="price">Rs.300/-</div>
+            <button id="add-to-cart-button" class="add-to-cart-btn">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="reviews" id="reviews">
+    <h2 class="title-text">Reviews</h2>
+    <div class="review-row">
+      <div class="review-col">
+        <img src="customer1.jpg" alt="Customer 1" />
+        <div>
+          <h3>Siddharth Gupta</h3>
+          <p>Rating:<span class="gold-star">★★★★★</span> (5/5)</p>
+          <p>
+            "Coffee Culture" exceeded my expectations with its warm and
+            inviting atmosphere, knowledgeable staff, and exceptional coffee.
+            From the moment I entered, I felt welcomed and valued as a
+            customer. The aroma of freshly cold brewed coffee filled the air,
+            and their specialty lattes were a delight to the senses. The latte
+            art added an extra touch of beauty to each cup. I highly recommend
+            "Java Bean Café" for a fantastic coffee experience.
+          </p>
+        </div>
+      </div>
+      <div class="review-col">
+        <img src="customer2.jpg" alt="Customer 2" />
+        <div>
+          <h3>Radha Chauhan</h3>
+          <p><span class="gold-star">★★★★★</span>(5/5)</p>
+          <p>
+            The coffee shop is fantastic! The coffee is rich and flavorful,
+            and the staff is incredibly welcoming and friendly. I love the
+            cozy ambiance and comfortable seating options. It's my go-to place
+            for a relaxing cup of coffee and some quality me-time. Highly
+            recommend giving it a try!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title-text">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="blogs" id="blogs">
+    <h2 class="title-text">Latest Blogs</h2>
+    <div class="blog-row">
+      <div class="blog-col">
+        <img src="blog1.jpg" alt="Blog 1" />
+        <h3>The Enchanting World of Coffee Culture</h3>
+        <p>
+          Coffee culture is a global phenomenon that unites people through its
+          aromatic brew. From bustling cafes to tranquil corners, coffee
+          transcends borders and sparks connections. It embraces diverse
+          brewing methods, creating unique sensory experiences. Coffee shops
+          have become community spaces, fostering creativity and human
+          interaction. Sustainability and ethical sourcing are key values in
+          this culture. With every sip, we embark on a journey of flavors,
+          traditions, and shared moments. Join the captivating world of coffee
+          culture and experience its rich tapestry of taste and togetherness.
+        </p>
+
+        <p>- Madhur Sharma</p>
+      </div>
+      <div class="blog-col">
+        <img src="blog2.jpg" alt="Blog 2" />
+        <h3>Empowering Women Through Coffee Culture</h3>
+        <p>
+          Coffee culture has become a powerful platform for women to showcase
+          their talent, passion, and leadership. From coffee farming to
+          barista skills and entrepreneurship, women are making significant
+          contributions and breaking barriers in the industry. They bring
+          innovation, inclusivity, and a sense of community to coffee spaces.
+          Through coffee culture, women are empowering and inspiring each
+          other, creating a vibrant and diverse industry. Join the movement
+          and support women in coffee as they redefine the landscape of this
+          beloved beverage.
+        </p>
+
+        <p>- Saloni</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="text-center">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/Pathare_11072"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/komal-pathare/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p>&copy;2024 Coffee Shop. All rights reserved</p>
+    </div>
+  </footer>
+</body>
+<script src="addtocart.js"></script>
+</html>
